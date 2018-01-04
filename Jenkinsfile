@@ -25,8 +25,6 @@ pipeline {
       steps {
         echo 'UI Testing....'
         sh 'ls /etc'
-        sh 'curl localhost:3000'
-        sh 'curl localhost:3000'
       }
     }
   }
